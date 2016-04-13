@@ -4,7 +4,12 @@ require(devtools)
 install_github('ramnathv/rCharts')
 require(rCharts)
 
-function(file.name, folder.override = NULL, 
+a <- 1
+
+
+
+ 
+LoadFromCSVs = function(file.name, folder.override = NULL, 
          file.directory = "F:Data/temp/", returnAsTs = TRUE){
   
   if (!is.null(folder.override)) {
