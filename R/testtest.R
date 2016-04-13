@@ -1,5 +1,7 @@
 
 res = try(source("F:/Data/temp/R files/SetUpWorkEnvironment.R")) 
+require(devtools)
+install_github('ramnathv/rCharts')
 require(rCharts)
 
 function(file.name, folder.override = NULL, 
